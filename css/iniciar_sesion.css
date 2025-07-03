@@ -17,6 +17,7 @@ body {
     background-position: center;
 }
 
+/*Diseño del formulario del medio*/
 .Capa_Borrosa {
     width: 420px;
     background-color: transparent;
@@ -115,3 +116,36 @@ body {
 .Capa_Borrosa .link_registro p a:hover {
     text-decoration: underline;
 }
+
+/*Diseño de mi link de GitHub*/
+
+.link_github {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+
+}
+
+.btn_github {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn_github img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
